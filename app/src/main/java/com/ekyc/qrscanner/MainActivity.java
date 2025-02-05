@@ -64,6 +64,7 @@ public class MainActivity extends AppCompatActivity {
     private boolean isBack = true;
     private boolean isFlashOn = false;
     private CameraManager cameraManager;
+
     private LinearLayout pgLayout;
     private ImageAnalysis imageAnalysis;
     private ActivityResultLauncher<Intent> imageLauncher;
